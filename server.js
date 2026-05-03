@@ -36,7 +36,7 @@ app.post("/send-bulk", async (req, res) => {
             };
 
             const response = await axios.post(
-                "https://api.swiftwallet.co.ke/pay-app/v3/stk-initiate/",
+                "https://swiftwallet.co.ke/pay-app/v3/stk-initiate/",
                 payload,
                 {
                     headers: {
